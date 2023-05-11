@@ -1,0 +1,21 @@
+.footer{
+    height: 300px;
+    background-color:#0a2a79;
+ 
+}
+
+.copyright{
+    color: white;
+    margin-top: 150px;
+    margin-left: 80px;
+    float: left;
+    font-weight: lighter;    
+}
+
+.assinatura{
+    color: white;
+    margin-top: 150px;
+    margin-right: 190px;
+    float: right;
+    font-weight: lighter;
+}

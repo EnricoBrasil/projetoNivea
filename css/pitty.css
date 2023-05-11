@@ -1,0 +1,97 @@
+.videoPedacinho{
+    width: 70vw;
+}
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.cPitty{
+    display: flex;
+    justify-content: center;
+}
+
+.perfilPitty{
+    
+    width: 600px;
+    height: 500px;
+    border-radius: 35px 0px 0px 35px;
+    background-image: url(../image/pitty.jpg);
+    background-size: cover;
+}
+.curiosidadesPitty{
+    background-color: #eee;
+    width: 600px;
+    height: 500px;
+    border: solid 1px rgb(197, 197, 197);
+    border-radius: 0px 35px 35px 0px;
+}
+
+.curiosidadesPitty ul li{
+    list-style: none;
+    text-align: justify;
+    margin: 15px;
+    font-size: larger;
+    padding-top: 25px;
+    
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .cPitty{ 
+        display: grid;
+        justify-content: center;
+    
+    }
+
+    .perfilPitty{
+        border-radius: 0px;
+    }
+    
+    .curiosidadesPitty{
+    border: solid 1px rgb(189, 189, 189);
+    border-radius: 0px;
+    }
+
+  /* CELULAR */
+  @media (min-width: 481px) and (max-width: 767px) {
+    .cPitty{ 
+        display: grid;
+        justify-content: center;
+    
+    }
+
+    .perfilPitty{
+        border-radius: 0px;
+    }
+    
+    .curiosidadesPitty{
+    border: solid 1px rgb(189, 189, 189);
+    border-radius: 0px;
+    }
+
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .cPitty{ 
+        display: grid;
+        justify-content: center;
+    
+    }
+
+    .perfilPitty{
+        border-radius: 0px;
+    }
+    
+    .curiosidadesPitty{
+    border: solid 1px rgb(189, 189, 189);
+    border-radius: 0px;
+    }
+
+  }

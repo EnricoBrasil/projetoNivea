@@ -1,0 +1,51 @@
+.pedacinhoSeu{
+    
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagePedacinho{
+    width: 37.5rem;
+    height: 43.75rem;
+    border-radius: 35px 0px 0px 35px;
+    background-image: url(../image/slider/pedacinho03.jpg);
+    background-size: cover;
+    
+}
+
+.textoPedacinho{
+    width: 37.5rem;
+    height: 43.125rem;
+    text-align: center;
+    font-size: x-large;
+    background-color: #eeeeee;
+    margin-top: 9px;
+   border-radius: 0px 15px 15px 0px;
+   padding: 40px;
+    
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .imagePedacinho{ 
+        border-radius: 0px;
+    }
+    .textoPedacinho{
+        border-radius: 0px;
+        
+    }
+    }
+
+  /* CELULAR */
+  @media (min-width: 481px) and (max-width: 767px) {
+    .imagePedacinho{ 
+        border-radius: 0px;
+    }
+    .textoPedacinho{
+        border-radius: 0px;
+        
+    }
+    }
+
+

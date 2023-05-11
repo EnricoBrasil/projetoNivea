@@ -1,0 +1,293 @@
+.pageArtistas{
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    margin-top:60px ;
+}
+
+.image1Art{
+  
+    width: 1000px;
+    height: 600px;
+    background-image: url(/image/fotoartistas.jpg);
+    background-size: cover;
+    border: solid 1px #0a2a79;
+}
+
+.textoArtistas{
+    width: 99vw;
+    height: 1000px;
+    text-align: justify;
+    
+
+}
+
+.pitty{ 
+    width: 98vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    margin-top: -300px;
+}
+
+.imagePitty{
+    width:31.25rem;
+    height: 24rem;
+    background-image: url(../image/artistasimgs/pitty.jpg);
+    background-size: cover;
+    border-radius: 35px 0px 0px 35px;
+    border: solid 1px rgb(189, 189, 189);
+
+}
+
+.textoPitty{
+background-color: #eeeeee;
+width:31.25rem;
+height: 24rem;
+border-radius: 0px 35px 35px 0px;
+text-align: justify;
+padding: 50px;
+font-size: large;
+border: solid 1px rgb(189, 189, 189);
+}
+.textoPitty a{
+    text-decoration: underline;
+    color: purple;
+}
+.textoPitty a:hover{
+    color: blue;
+}
+
+
+.vanessa{
+    width: 98vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.imageVanessa{
+    background-color: aliceblue;
+    width:31.25rem;
+    height: 24rem;
+    background-image: url(../image/artistasimgs/vanessa.jpg);
+    background-size: cover;
+    border-radius: 35px 0px 0px 35px;
+    border: solid 1px rgb(189, 189, 189);
+}
+
+.textoVanessa{
+    background-color: #eeeeee;
+    width:31.25rem;
+    height: 24rem;
+    border-radius: 0px 35px 35px 0px;
+    text-align: justify;
+    padding: 50px;
+    font-size: large;
+    border: solid 1px rgb(189, 189, 189);
+}
+
+
+.roberta{
+   
+    width: 98vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.imageRoberta{
+    background-color: aliceblue;
+    width:31.25rem;
+    height: 24rem;
+    background-image: url(../image/artistasimgs/roberta.webp);
+    background-size: cover;
+    border-radius: 35px 0px 0px 35px;
+    border: solid 1px rgb(189, 189, 189);
+    
+}
+
+.textoRoberta{
+    background-color: #eeeeee;
+    width:31.25rem;
+    height: 24rem;
+    border-radius: 0px 35px 35px 0px;
+    text-align: justify;
+    padding: 50px;
+    font-size: large;
+    border: solid 1px rgb(189, 189, 189);
+}
+
+h2{
+    padding-bottom: 15px;
+}
+
+h1{
+    text-align: center;
+ 
+}
+
+/* MEDIA QUERY */
+
+@media (min-width:768px) and (max-width:1024px){
+    .image1Art{
+        width: 100%;
+        height: 31.25rem;
+    }
+    .pitty{ 
+        display: grid;
+        justify-content: center;
+    
+    }
+
+    .imagePitty{
+        border-radius: 0px;
+    }
+    
+    .textoPitty{
+    border: solid 1px rgb(189, 189, 189);
+    border-radius: 0px;
+    }
+
+    .vanessa{ 
+        display: grid;
+        justify-content: center;
+        margin-top: 500px;
+    
+    }
+
+    .imageVanessa{
+        border-radius: 0px;
+    }
+    
+    .textoVanessa{
+    border: solid 1px rgb(189, 189, 189);
+    border-radius: 0px;
+    }
+
+    .roberta{ 
+        display: grid;
+        justify-content: center;
+        margin-top: 500px;
+    
+    }
+
+    .imageRoberta{
+        border-radius: 0px;
+    }
+    
+    .textoRoberta{
+    border: solid 1px rgb(189, 189, 189);
+    border-radius: 0px;
+    }
+
+    .footer{
+        height: 300px;
+        background-color:#0a2a79;
+    }
+    
+    .copyright{
+        color: white;
+        margin-top: 150px;
+        margin-left: 80px;
+        float: left;
+        font-weight: lighter;    
+    }
+    
+    .assinatura{
+        color: white;
+        margin-top: 150px;
+        margin-right: 190px;
+        float: right;
+        font-weight: lighter;
+    }
+
+    #menuAltResp{
+      
+        margin-top: 1700px;
+    }
+
+  }
+
+  /* CELULAR */
+  @media (min-width: 481px) and (max-width: 767px) {
+    .image1Art{
+        width: 100%;
+        height: 31.25rem;
+    }
+        .pitty{ 
+            display: grid;
+            justify-content: center;
+            background-color: #0a2a79;
+        }
+    
+        .imagePitty{
+            border-radius: 0px;
+        }
+        
+        .textoPitty{
+        border: solid 1px rgb(189, 189, 189);
+        border-radius: 0px;
+        }
+    
+        .vanessa{ 
+            display: grid;
+            justify-content: center;
+            margin-top: 500px;
+        
+        }
+    
+        .imageVanessa{
+            border-radius: 0px;
+        }
+        
+        .textoVanessa{
+        border: solid 1px rgb(189, 189, 189);
+        border-radius: 0px;
+        }
+    
+        .roberta{ 
+            display: grid;
+            justify-content: center;
+            margin-top: 500px;
+        
+        }
+    
+        .imageRoberta{
+            border-radius: 0px;
+        }
+        
+        .textoRoberta{
+        border: solid 1px rgb(189, 189, 189);
+        border-radius: 0px;
+        }
+    
+        .footer{
+            height: 300px;
+            background-color:#0a2a79;
+        }
+        
+        .copyright{
+            color: white;
+            margin-top: 150px;
+            margin-left: 80px;
+            float: left;
+            font-weight: lighter;    
+        }
+        
+        .assinatura{
+            color: white;
+            margin-top: 150px;
+            margin-right: 190px;
+            float: right;
+            font-weight: lighter;
+        }
+    
+        #menuAltResp{
+            margin-top: 1700px;
+        }
+
+  }

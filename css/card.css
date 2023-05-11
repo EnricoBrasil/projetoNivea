@@ -1,0 +1,114 @@
+#container {
+    margin-top: 62px;
+    
+    width: 100%;
+    background-image: url('../images/back2.jpg'); 
+    background-size: cover;
+    padding-top: 110px;
+    
+}
+
+.tituloCard h1{
+    text-align: center;
+    font-size: 80px;
+   
+}
+
+h2{
+    text-align: start;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.preco{
+    text-align: start;
+    margin-top:-1px;
+    padding:5px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 13px;
+    margin-left: 19px;
+    margin-top: 2px;
+}
+
+.primeiraColuna{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.segundaColuna{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.card{
+    background: white;
+    width: 330px;
+    height: 400px;
+    margin: 20px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: solid 1px rgb(206, 206, 206);
+    
+}
+
+.card-image{
+    height: 290px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+
+.item-1{
+    background-image: url('../image/produtos/facial.jpg');   
+}
+
+.item-2{
+     background-image: url('../image/produtos/firmador.jpg'); 
+}
+
+.item-3{
+    background-image: url('../image/produtos/hidratante.jpg');
+}
+
+.item-4{
+    background-image: url('../image/produtos/niveaLata.jpg');
+    
+}
+.item-5{
+    background-image: url('../image/produtos/pelenegra.jpg');
+    
+}
+.item-6{
+    background-image: url('../image/produtos/Regenerador_Labial.jpg');
+    
+}
+
+/* HOVER */
+.item-1:hover{
+   transform: scale(1.0);
+   transition: all 0.02s;
+}
+
+.item-2:hover{
+   transform: scale(1.0);
+   transition: all 0.02s;
+}
+
+.item-5:hover{
+    transform: scale(1.0);
+    transition: all 0.02s;
+}
+
+.card:hover{
+    box-shadow: 0 0 10px rgb(190, 190, 190);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
